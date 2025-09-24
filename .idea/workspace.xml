@@ -14,13 +14,10 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4436e43-217f-4451-864c-5afbf3d92a3d" name="Changes" comment="LEARNING TRAITS">
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    <list default="true" id="d4436e43-217f-4451-864c-5afbf3d92a3d" name="Changes" comment="Lesson 4 Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/core/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/media.rs" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/media.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/playground/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Cargo.Run playground.executor": "Debug",
+    "Cargo.Run playground.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -143,7 +140,7 @@
       <workItem from="1758633563035" duration="1084000" />
       <workItem from="1758634758949" duration="542000" />
       <workItem from="1758635316703" duration="3611000" />
-      <workItem from="1758718630922" duration="3194000" />
+      <workItem from="1758718630922" duration="4727000" />
     </task>
     <task id="LOCAL-00001" summary="update project file structure">
       <option name="closed" value="true" />
@@ -193,17 +190,29 @@
       <option name="project" value="LOCAL" />
       <updated>1758720706618</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson 4 Done">
+      <option name="closed" value="true" />
+      <created>1758721841706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758721841706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update project file structure" />
     <MESSAGE value="Update module" />
     <MESSAGE value="LEARNING TRAITS" />
-    <option name="LAST_COMMIT_MESSAGE" value="LEARNING TRAITS" />
+    <MESSAGE value="Lesson 4 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4 Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

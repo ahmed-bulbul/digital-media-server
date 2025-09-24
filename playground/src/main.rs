@@ -1,30 +1,14 @@
-use core::media::MediaStream;
-use core::core_info;
+use tokio::net::UdpSocket;
 
-fn main() {
-    core_info();
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let socket = UdpSocket::bind("127.0.0.1:8081").await?;
+    println!("UDP socket bound to 127.0.0.1:8081");
 
-    let valid_stream = MediaStream {
-        id: 1,
-        title: "Rust Demo".to_string(),
-        duration: 99.0,
-    };
-
-    let invalid_stream = MediaStream {
-        id: 2,
-        title: "invalid video".to_string(),
-        duration: 42.0,
-    };
-
-    // Play valid stream
-    match valid_stream.play() {
-        Ok(_) => println!("Played valid stream successfully."),
-        Err(e) => println!("Error playing valid stream: {}", e),
-    }
-
-    // Play invalid stream
-    match invalid_stream.play() {
-        Ok(_) => println!("Played invalid stream successfully."),
-        Err(e) => println!("Error playing invalid stream: {}", e),
+    let mut buf = [0u8; 1024];
+    loop {
+        let (len, addr) = socket.recv_from(&mut buf).await?;
+        println!("Received {} bytes from {}: {:?}", len, addr, &buf[..len]);
+        socket.send_to(&buf[..len], &addr).await?;
     }
 }
