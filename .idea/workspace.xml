@@ -14,15 +14,8 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4436e43-217f-4451-864c-5afbf3d92a3d" name="Changes" comment="update project file structure">
-      <change afterPath="$PROJECT_DIR$/core/src/media.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+    <list default="true" id="d4436e43-217f-4451-864c-5afbf3d92a3d" name="Changes" comment="Update module">
       <change beforePath="$PROJECT_DIR$/core/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/core/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/playground/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +80,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test digital-media-server">
+  <component name="RunManager" selected="Cargo.Run playground">
     <configuration name="Run playground" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="buildProfileId" value="dev" />
       <option name="command" value="run --package playground --bin playground" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
@@ -137,7 +131,7 @@
       <workItem from="1758633563035" duration="1084000" />
       <workItem from="1758634758949" duration="542000" />
       <workItem from="1758635316703" duration="3611000" />
-      <workItem from="1758718630922" duration="1023000" />
+      <workItem from="1758718630922" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="update project file structure">
       <option name="closed" value="true" />
@@ -163,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758635756224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update module">
+      <option name="closed" value="true" />
+      <created>1758719805127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758719805127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update project file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project file structure" />
+    <MESSAGE value="Update module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update module" />
   </component>
 </project>

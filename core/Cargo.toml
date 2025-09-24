@@ -1,4 +1,4 @@
 [package]
-name = "core"   # ← package name is corelib, NOT core
+name = "core"
 version = "0.1.0"
 edition = "2024"
