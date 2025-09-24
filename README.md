@@ -14,7 +14,6 @@
 
 ---
 
-
 ## 🚀 Project Status
 
 > **Early learning & prototyping phase.**  
@@ -23,13 +22,19 @@
 ---
 
 ## 🏗️ Project Structure
----
 
+digital-media-server/
+├── core/ # Core library (types, media primitives, utils)
+├── playground/ # Sandbox binary for experiments
+└── Cargo.toml # Workspace configuration
+
+
+---
 
 ## 📚 Learning Roadmap
 
 - ✅ **Lesson 1:** Setup Rust, Cargo workspace, Hello World
-- ⬜ **Lesson 2:** Rust basics (variables, types, functions, ownership)
+- ✅ **Lesson 2:** Rust basics (variables, types, functions, ownership)
 - ⬜ **Lesson 3:** Modules, structs, enums, traits, error handling
 - ⬜ **Lesson 4+:** Async, networking, RTP, WebRTC, etc.
 
