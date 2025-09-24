@@ -14,7 +14,15 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4436e43-217f-4451-864c-5afbf3d92a3d" name="Changes" comment="LEARNING TRAITS" />
+    <list default="true" id="d4436e43-217f-4451-864c-5afbf3d92a3d" name="Changes" comment="LEARNING TRAITS">
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/core/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/media.rs" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/media.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/playground/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +87,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Cargo.Run playground">
     <configuration name="Run playground" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="buildProfileId" value="dev" />
@@ -130,7 +143,7 @@
       <workItem from="1758633563035" duration="1084000" />
       <workItem from="1758634758949" duration="542000" />
       <workItem from="1758635316703" duration="3611000" />
-      <workItem from="1758718630922" duration="1938000" />
+      <workItem from="1758718630922" duration="3194000" />
     </task>
     <task id="LOCAL-00001" summary="update project file structure">
       <option name="closed" value="true" />
@@ -172,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758720469895</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LEARNING TRAITS">
+      <option name="closed" value="true" />
+      <created>1758720706618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758720706618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,9 +209,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/playground/src/main.rs</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/core/src/media.rs</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
