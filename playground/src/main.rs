@@ -1,3 +1,10 @@
+use core::media::MediaStream;
+
 fn main() {
-    println!("Hello, world!");
+    let stream = MediaStream {
+        id: 42,
+        title: "Rust Demo".to_string(),
+        duration: 99.0,
+    };
+    println!("Loaded {} [{}s]", stream.title, stream.duration);
 }

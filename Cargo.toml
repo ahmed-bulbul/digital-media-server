@@ -3,3 +3,4 @@ members = [
     "core",
     "playground"
 ]
+resolver = "3"
